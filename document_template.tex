@@ -1,22 +1,34 @@
-\documentclass{article}
+\documentclass[14pt]{article}
+% Adjust The page size via use of the geometry package 
+% \usepackage[paperwidth=441pt, paperheight=666pt,
+% textwidth=400pt,textheight=513pt]{geometry}
 \usepackage[utf8]{inputenc}
-
-\title{Reagents Test}
-\author{Aditya Chincholi}
-\date{August 2020}
-
+\usepackage[default]{opensans}
+\usepackage[T1]{fontenc}
+\usepackage{parskip}
 \usepackage{mhchem}
 \usepackage{graphicx}
-\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks=true,linkcolor=Purple]{hyperref}
+\usepackage{tocloft}
+% \renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsecpagefont}{\normalfont}
+% \renewcommand{\contentsname}{\centering Reagent List}
+\renewcommand{\contentsname}{\hfill Reagent List}   
+\renewcommand{\cftaftertoctitle}{\hfill}
+\title{Reagents}
+\author{Birendra Yadav and Aditya Chincholi}
+\date{August 2020}
+
 
 \begin{document}
+\renewcommand{\familydefault}{\sfdefault}
 
 \maketitle
-
+\pagebreak
 \tableofcontents
+\pagebreak
 
 % Working Area
-
-
 
 \end{document}

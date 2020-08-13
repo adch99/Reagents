@@ -10,7 +10,6 @@ section_template_filename = "reagent_template.tex"
 working_indicator = "% Working Area\n"
 
 def createSections(outfile):
-    print("Working Function")
     sections = getSections()
     for section in sections:
         sectionText = createSection(section)
@@ -50,6 +49,7 @@ def createSection(sectionDict):
 
 def getSections():
     data = pd.read_csv(datafilename, encoding="utf-8", header=0, delimiter=",")
+    data["imageFilename"].fillna("", inplace=True)
     return data.to_dict("records")
 
 # End of Functions
@@ -67,3 +67,4 @@ for line in buffer:
         createSections(outfile)
 
 outfile.close()
+print(f"Output File: {outfilename}")

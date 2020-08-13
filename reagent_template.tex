@@ -3,10 +3,12 @@
 \section{\VAR{reagentName}}
 \label{\VAR{reagentLabel}}
 
+\BLOCK{if imageFilename != ""}
 \begin{figure}[h]
 \centering
-\includegraphics{img/\VAR{imageFilename}}
+\includegraphics[height=0.5\textwidth,keepaspectratio]{img/\VAR{imageFilename}}
 \label{fig:\VAR{imageName}}
 \end{figure}
+\BLOCK{endif}
 
 % Add Text after this

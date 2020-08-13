@@ -1,2 +1,15 @@
 reagentName,reagentLabel,imageFilename,imageName,textFilename
-\ce{K_2Cr_2O_7},k2cr2o7,oxidant.png,k2cr2o7,k2cr2o7.tex
+\ce{K_2Cr_2O_7},k2cr2o7,k2cr2o7.png,k2cr2o7,k2cr2o7.tex
+\ce{KMnO_4},kmno4,,,kmno4.tex
+\ce{R_1eaGeAnT_1},reagent1,reagent1.png,reagent1,reagent1.tex
+\ce{R_1eaGeAnT_2},reagent2,reagent2.png,reagent2,reagent2.tex
+\ce{R_1eaGeAnT_3},reagent3,reagent3.png,reagent3,reagent3.tex
+\ce{R_1eaGeAnT_4},reagent4,reagent4.png,reagent4,reagent4.tex
+\ce{R_1eaGeAnT_5},reagent5,reagent5.png,reagent5,reagent5.tex
+\ce{R_1eaGeAnT_6},reagent6,reagent6.png,reagent6,reagent6.tex
+\ce{R_1eaGeAnT_7},reagent7,reagent7.png,reagent7,reagent7.tex
+\ce{R_1eaGeAnT_8},reagent8,reagent8.png,reagent8,reagent8.tex
+\ce{R_1eaGeAnT_9},reagent9,reagent9.png,reagent9,reagent9.tex
+\ce{R_1eaGeAnT_10},reagent10,reagent10.png,reagent10,reagent10.tex
+\ce{R_1eaGeAnT_11},reagent11,reagent11.png,reagent11,reagent11.tex
+\ce{R_1eaGeAnT_12},reagent12,reagent12.png,reagent12,reagent12.tex
