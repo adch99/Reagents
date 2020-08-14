@@ -1,7 +1,8 @@
-\documentclass[14pt]{article}
+\documentclass[12pt]{article}
 % Adjust The page size via use of the geometry package 
-% \usepackage[paperwidth=441pt, paperheight=666pt,
-% textwidth=400pt,textheight=513pt]{geometry}
+\usepackage[paperwidth=288pt, paperheight=576,textwidth=248pt,textheight=512]{geometry}
+% \usepackage[smartphone,useforms]{aeb-mobile}
+\usepackage{microtype}
 \usepackage[utf8]{inputenc}
 \usepackage[default]{opensans}
 \usepackage[T1]{fontenc}
@@ -13,15 +14,17 @@
 \usepackage{tocloft}
 % \renewcommand{\cftsecfont}{\normalfont}
 \renewcommand{\cftsecpagefont}{\normalfont}
-% \renewcommand{\contentsname}{\centering Reagent List}
-\renewcommand{\contentsname}{\hfill Reagent List}   
-\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\contentsname}{\centering Reagent List}
+% \renewcommand{\contentsname}{\hfill Reagent List}   
+% \renewcommand{\cftaftertoctitle}{\hfill}
 \title{Reagents}
 \author{Birendra Yadav and Aditya Chincholi}
 \date{August 2020}
 
+\pagenumbering{gobble}
 
 \begin{document}
+\sloppy
 \renewcommand{\familydefault}{\sfdefault}
 
 \maketitle
